@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Даниил Аннануров — Разработчик</title>
+    <meta name="description" content="Личное портфолио разработчика: проекты, навыки и контакты." />
+    <meta name="color-scheme" content="light dark">
+
+    <!-- Optional: Google Fonts (Inter). Удалите, если не нужен внешний шрифт. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script defer src="assets/js/main.js"></script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Даниил Аннануров",
+      "url": "https://daniyarsick.github.io/",
+      "jobTitle": "Software Engineer",
+      "sameAs": [
+        "https://github.com/daniyarsick",
+        "https://t.me/daniyarsick"
+      ]
+    }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Перейти к содержимому</a>
+    <header class="site-header">
+      <div class="container row between center">
+        <a class="brand" href="./">ДА</a>
+        <nav class="nav">
+          <a href="#about">Обо мне</a>
+          <a href="#projects">Проекты</a>
+          <a href="#skills">Навыки</a>
+          <a href="#contact">Контакты</a>
+        </nav>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Переключить тему">🌓</button>
+      </div>
+    </header>
+
+    <main id="content">
+      <!-- HERO -->
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="avatar" aria-hidden="true">
+            <!-- Простая аватарка (SVG). Замените на своё изображение, если нужно. -->
+            <svg viewBox="0 0 120 120" role="img" aria-label="Avatar">
+              <defs>
+                <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#6EE7F9"/>
+                  <stop offset="100%" stop-color="#A78BFA"/>
+                </linearGradient>
+              </defs>
+              <circle cx="60" cy="60" r="58" fill="url(#g)"/>
+              <text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" font-size="44" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif" fill="#0b1020" font-weight="700">ДА</text>
+            </svg>
+          </div>
+          <div class="hero-text">
+            <h1>Даниил Аннануров</h1>
+            <p class="subtitle">Разработчик • Web • Backend • Open Source</p>
+            <p class="lead">Делаю быстрые, удобные и надёжные веб‑приложения. Забочусь о производительности, читаемости кода и UX.</p>
+            <div class="actions">
+              <a class="btn primary" href="#projects">Смотреть проекты</a>
+              <a class="btn" href="#contact">Связаться</a>
+            </div>
+            <div class="socials" aria-label="Социальные ссылки">
+              <a href="https://github.com/daniyarsick" target="_blank" rel="noopener" aria-label="GitHub">
+                <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                </svg>
+              </a>
+              <a href="https://t.me/daniyarsick" target="_blank" rel="noopener" aria-label="Telegram">
+                <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="section">
+        <div class="container">
+          <h2>Обо мне</h2>
+          <p>
+            Привет! Я Даниил — разработчик с опытом в JavaScript/TypeScript и Python. Люблю продуманную архитектуру,
+            автоматизацию процессов и чистый интерфейс. Работаю с бэкендом и фронтендом, уделяю внимание DX и тестам.
+          </p>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="section alt">
+        <div class="container">
+          <h2>Проекты</h2>
+          <div class="grid projects">
+            <!-- Card 1 -->
+            <article class="card">
+              <div class="thumb" aria-hidden="true">
+                <div class="thumb-bg" data-title="API"></div>
+              </div>
+              <div class="card-body">
+                <h3>REST API Starter</h3>
+                <p>Шаблон продакшн‑готового REST API с аутентификацией, логированием и тестами.</p>
+                <div class="tags">
+                  <span>Node.js</span><span>Express</span><span>JWT</span>
+                </div>
+                <div class="links">
+                  <a class="btn sm" href="#" target="_blank" rel="noopener">Демо</a>
+                  <a class="btn sm ghost" href="#" target="_blank" rel="noopener">GitHub</a>
+                </div>
+              </div>
+            </article>
+            <!-- Card 2 -->
+            <article class="card">
+              <div class="thumb" aria-hidden="true">
+                <div class="thumb-bg" data-title="UI"></div>
+              </div>
+              <div class="card-body">
+                <h3>UI Components</h3>
+                <p>Набор доступных компонент без зависимостей: модалки, тосты, вкладки, выпадающие списки.</p>
+                <div class="tags">
+                  <span>TypeScript</span><span>ARIA</span><span>CSS</span>
+                </div>
+                <div class="links">
+                  <a class="btn sm" href="#" target="_blank" rel="noopener">Демо</a>
+                  <a class="btn sm ghost" href="#" target="_blank" rel="noopener">GitHub</a>
+                </div>
+              </div>
+            </article>
+            <!-- Card 3 -->
+            <article class="card">
+              <div class="thumb" aria-hidden="true">
+                <div class="thumb-bg" data-title="DS"></div>
+              </div>
+              <div class="card-body">
+                <h3>Data Viz</h3>
+                <p>Интерактивные визуализации данных с акцентом на читаемость и производительность.</p>
+                <div class="tags">
+                  <span>D3</span><span>SVG</span><span>Performance</span>
+                </div>
+                <div class="links">
+                  <a class="btn sm" href="#" target="_blank" rel="noopener">Демо</a>
+                  <a class="btn sm ghost" href="#" target="_blank" rel="noopener">GitHub</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills" class="section">
+        <div class="container">
+          <h2>Навыки</h2>
+          <ul class="chips" role="list">
+            <li>JavaScript/TypeScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Python</li>
+            <li>PostgreSQL</li>
+            <li>Docker</li>
+            <li>CI/CD</li>
+            <li>GitHub Actions</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section alt">
+        <div class="container">
+          <h2>Контакты</h2>
+          <p>
+            Открыт к предложениям и сотрудничеству. Быстрее всего отвечаю в
+            <a class="link" href="https://t.me/daniyarsick" target="_blank" rel="noopener">Telegram</a>.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container row between center">
+        <small>© <span id="year"></span> Даниил Аннануров</small>
+        <small><a class="link" href="https://github.com/daniyarsick/portfolio" target="_blank" rel="noopener">Исходники</a></small>
+      </div>
+    </footer>
+  </body>
+</html>
